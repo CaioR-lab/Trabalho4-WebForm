@@ -31,5 +31,18 @@ namespace WebView
             repository.Create(produto);
             
         }
+        protected void btnSalvarCategoria_Click(object sender, EventArgs e)
+        {
+            Categoria categoria = new Categoria();
+            categoria.Nome = Convert.ToString(tbxNomeCategoria);
+            categoria.Descricao = Convert.ToString(tbxDescricaoCategoria);
+        }
+
+        protected void btnLimparCategoria_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void btnLimparProduto_Click(object sender, EventArgs e)
+
     }
 }

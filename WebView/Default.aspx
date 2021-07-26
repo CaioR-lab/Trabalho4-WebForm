@@ -15,6 +15,7 @@
         <asp:TextBox ID="tbxCategoriaProduto" runat="server"></asp:TextBox>
         <br />
         <asp:Button ID="btnSalvarProduto" runat="server" Text="Salvar" />
+        <asp:Button ID="btnLimparProduto" runat="server" Text="Limpar" />
         <asp:GridView ID="gvProduto" runat="server"></asp:GridView>
         <br />
         <h3>Cadastro Categoria</h3>
@@ -25,6 +26,7 @@
         <asp:TextBox ID="tbxDescricaoCategoria" runat="server"></asp:TextBox>
         <br />        
         <asp:Button ID="btnSalvarCategoria" runat="server" Text="Salvar" />
+        <asp:Button ID="btnLimparCategoria" runat="server" Text="Limpar" />
         <asp:GridView ID="gvCategoria" runat="server"></asp:GridView>
         <br />
 
