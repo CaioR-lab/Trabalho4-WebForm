@@ -4,17 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Models
+namespace Data
 {
-    class Produto : BaseModels
+    public class Produto : BaseModels
     {
         public string Nome { get; set; }
+        public string Descricao { get; set; }
+        public Categoria Categoria { get; set; }
 
-        public Produto(int id, string nome)
+        public Produto(int id,string nome,string descricao, Categoria categoria)
         {
             this.Id = id;
             this.Nome = nome;
-
+            this.Descricao = descricao;
+            this.Categoria = categoria;
         }
 
         public Produto()
@@ -22,5 +25,4 @@ namespace Data.Models
 
         }
     }
-
 }
